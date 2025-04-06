@@ -6,16 +6,16 @@ Kotlin (and Android) flavoured foundational library for Swift (and SwiftUI) deve
 
 ## FAQ
 <details>
+  <summary>Who need this library?</summary>
+
+    This library mainly intended for Kotlin (and Android) developers that switching to Swift (and iOS) environment and need to manage both platform. Frequent switching context is always difficult and that's why maintaning similar Kotlin style on both platforms can boost developer productivity. 
+</details>
+<details>
   <summary>Is this releted to Kotlin or Swift official?</summary>
 
     No,
 
-    This library <b>has no relations</b> with official Kotlin and/or Swift authors. This is purely driven by open-source community.
-</details>
-<details>
-  <summary>Who need this library?</summary>
-
-    This library mainly intended for Kotlin (and Android) developers that switching to Swift (and iOS) environment and need to manage both platform. Frequent switching context is always difficult and that's why maintaning similar Kotlin style on both platforms can boost developer productivity. 
+    This library has no relations with official Kotlin and/or Swift authors. This is purely driven by open-source community.
 </details>
 
 ## License
