@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		459189352DA24C1B00B9A47E /* KtFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 459189342DA24C1B00B9A47E /* KtFoundation */; };
-		459189372DA24C1B00B9A47E /* KtLifecycle in Frameworks */ = {isa = PBXBuildFile; productRef = 459189362DA24C1B00B9A47E /* KtLifecycle */; };
-		459189392DA24C1B00B9A47E /* KtWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 459189382DA24C1B00B9A47E /* KtWidget */; };
+		45918A5B2DA2763400B9A47E /* KtFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 45918A5A2DA2763400B9A47E /* KtFoundation */; };
+		45918A5D2DA2763400B9A47E /* KtLifecycle in Frameworks */ = {isa = PBXBuildFile; productRef = 45918A5C2DA2763400B9A47E /* KtLifecycle */; };
+		45918A5F2DA2763400B9A47E /* KtWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 45918A5E2DA2763400B9A47E /* KtWidget */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459189372DA24C1B00B9A47E /* KtLifecycle in Frameworks */,
-				459189352DA24C1B00B9A47E /* KtFoundation in Frameworks */,
-				459189392DA24C1B00B9A47E /* KtWidget in Frameworks */,
+				45918A5D2DA2763400B9A47E /* KtLifecycle in Frameworks */,
+				45918A5B2DA2763400B9A47E /* KtFoundation in Frameworks */,
+				45918A5F2DA2763400B9A47E /* KtWidget in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				458DF7222DA12151004C22E2 /* Sample */,
+				45918A592DA2763400B9A47E /* Frameworks */,
 				458DF7212DA12151004C22E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +53,13 @@
 				458DF7202DA12151004C22E2 /* Sample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		45918A592DA2763400B9A47E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +82,9 @@
 			);
 			name = Sample;
 			packageProductDependencies = (
-				459189342DA24C1B00B9A47E /* KtFoundation */,
-				459189362DA24C1B00B9A47E /* KtLifecycle */,
-				459189382DA24C1B00B9A47E /* KtWidget */,
+				45918A5A2DA2763400B9A47E /* KtFoundation */,
+				45918A5C2DA2763400B9A47E /* KtLifecycle */,
+				45918A5E2DA2763400B9A47E /* KtWidget */,
 			);
 			productName = Sample;
 			productReference = 458DF7202DA12151004C22E2 /* Sample.app */;
@@ -107,7 +115,7 @@
 			mainGroup = 458DF7172DA12151004C22E2;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				459189332DA24C1B00B9A47E /* XCLocalSwiftPackageReference "../../Kt" */,
+				45918A3C2DA26CA100B9A47E /* XCLocalSwiftPackageReference "../../Kt" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 458DF7212DA12151004C22E2 /* Products */;
@@ -289,10 +297,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -330,10 +339,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -362,23 +372,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		459189332DA24C1B00B9A47E /* XCLocalSwiftPackageReference "../../Kt" */ = {
+		45918A3C2DA26CA100B9A47E /* XCLocalSwiftPackageReference "../../Kt" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Kt;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		459189342DA24C1B00B9A47E /* KtFoundation */ = {
+		45918A5A2DA2763400B9A47E /* KtFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 45918A3C2DA26CA100B9A47E /* XCLocalSwiftPackageReference "../../Kt" */;
 			productName = KtFoundation;
 		};
-		459189362DA24C1B00B9A47E /* KtLifecycle */ = {
+		45918A5C2DA2763400B9A47E /* KtLifecycle */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 45918A3C2DA26CA100B9A47E /* XCLocalSwiftPackageReference "../../Kt" */;
 			productName = KtLifecycle;
 		};
-		459189382DA24C1B00B9A47E /* KtWidget */ = {
+		45918A5E2DA2763400B9A47E /* KtWidget */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 45918A3C2DA26CA100B9A47E /* XCLocalSwiftPackageReference "../../Kt" */;
 			productName = KtWidget;
 		};
 /* End XCSwiftPackageProductDependency section */
